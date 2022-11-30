@@ -5,29 +5,30 @@ font-family: sans-serif;
 
 }
 .todo-container{
-    width: 350;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    width: 350px;
+    margin: auto;
     text-align: center;
+    margin-top: 120px;
 }
 
 .input-section{
     background-color:  #055565;
     padding: 18px;
     border-radius:10px ;
-    box-shadow: 0 4px 6px #0000007d;
-}
+    box-shadow: 0 7px 6px #0000003d;
+}  
 
 .input-section input{
   border-radius: 5px;
-  border: 1px solid  #055565;
+  border: 1px solid  #09788f;
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
   background-color: #055565;
   outline: none;
+  color:#08869e ;
+  
+   
 }
 input::placeholder{
     color: #08869e;
@@ -36,7 +37,7 @@ input::placeholder{
  h1{
     margin: 0;
     margin-bottom: 50px;
-    color:  #086b7d;
+    color:  #0c7588;
 } 
 
 ul{
@@ -44,6 +45,7 @@ ul{
     text-align: left;
 }
 ul li{
+     display: flex; 
     list-style: none;
     background-color:  #055565;
     padding: 15px;
@@ -51,4 +53,9 @@ ul li{
     margin-bottom: 10px;
     color:  #08869e;
      box-shadow: 0 4px 6px #000000a3;
+}
+ul li i {
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
 }
