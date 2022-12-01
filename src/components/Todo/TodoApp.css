@@ -12,7 +12,7 @@ font-family: sans-serif;
 }
 
 .input-section{
-    background-color:  #055565;
+    background-color:  #064854;
     padding: 18px;
     border-radius:10px ;
     box-shadow: 0 7px 6px #0000003d;
@@ -47,7 +47,7 @@ ul{
 ul li{
      display: flex; 
     list-style: none;
-    background-color:  #055565;
+    background-color:  #064854;
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 10px;
